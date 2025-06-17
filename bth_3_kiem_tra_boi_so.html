@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiểm tra bội số</title>
+</head>
+<body>
+<h1>Kiểm tra bội số</h1>
+  <script>
+    let a = prompt('Nhập số a');
+    let b = prompt('Nhập số b');
+
+    a = parseInt(a);
+    b = parseInt(b);
+
+    if (b === 0) {
+        alert('Không thể chia cho 0');
+    } else if (a % b === 0) {
+        alert(a + ' là bội số của ' + b);
+    } else {
+        alert(a + ' không phải là bội số ' + b);
+    }
+  </script>
+</body>
+</html>
